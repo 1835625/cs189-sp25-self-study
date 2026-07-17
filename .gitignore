@@ -1,0 +1,65 @@
+# =========================
+# Course-provided data
+# =========================
+**/data/
+**/*.npz
+**/*.zip
+
+# Official homework handouts
+# Add one exact path for each new homework
+/hw1/hw1.pdf
+
+# =========================
+# Generated results
+# =========================
+**/submissions/
+**/outputs/
+**/models/
+*.pkl
+*.joblib
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Local virtual environments
+.venv/
+venv/
+env/
+.conda/
+
+# =========================
+# Secrets
+# =========================
+kaggle.json
+**/kaggle.json
+.env
+.env.*
+!.env.example
+
+# =========================
+# LaTeX generated files
+# =========================
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# =========================
+# Editors and Windows
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
